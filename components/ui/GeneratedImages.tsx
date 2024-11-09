@@ -1,3 +1,5 @@
+"use client";
+
 interface GeneratedImagesProps {
     images: string[]; // Assuming images is an array of strings (URLs)
 }

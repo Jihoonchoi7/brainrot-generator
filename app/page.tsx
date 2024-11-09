@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import ImageUploadForm from "../components/ui/ImageUploadForm";
 import GeneratedImages from "../components/ui/GeneratedImages";
@@ -31,7 +33,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen p-8">
-      <h1 className="text-3xl font-bold">Brainrot Translator</h1>
+      <h1 className="text-4xl font-bold text-center mb-6">Brainrot Generator</h1>
       <ImageUploadForm onGenerate={handleGenerate} />
       <GeneratedImages images={images} />
     </div>
